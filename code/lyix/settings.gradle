@@ -1,0 +1,5 @@
+rootProject.name = 'lyix'
+include 'domain'
+include 'application'
+include 'api'
+include 'persistence'
