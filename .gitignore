@@ -1,23 +1,52 @@
-# Visual Paradigm
-*.vpp.bak_*
-*.lck
-*.bak_*
-*.lck
+############################
+# Gradle
+############################
+.gradle/
+build/
+**/build/
 
+############################
+# IntelliJ IDEA
+############################
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
 
-# Compiled files
+############################
+# Java
+############################
 *.class
-
-# Logs
 *.log
 
-# OS files
+############################
+# OS
+############################
 .DS_Store
 Thumbs.db
 
-# Gradle
-.gradle/
-build/
-!gradle/wrapper/gradle-wrapper.jar
-.idea/
-*.iml
+############################
+# Android
+############################
+.local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+
+############################
+# Kotlin
+############################
+.kotlin/
+
+############################
+# Docker
+############################
+*.env
+
+############################
+# Temporary / backup files
+############################
+*.tmp
+*.bak
+*.swp
