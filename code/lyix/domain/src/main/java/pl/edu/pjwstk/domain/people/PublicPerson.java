@@ -8,7 +8,7 @@ import pl.edu.pjwstk.domain.connection.Connection;
 import java.util.Date;
 import java.util.List;
 
-public class PublicPerson extends Person {
+public abstract class PublicPerson extends Person {
     private Date dateOfBirth;
     private ContactInfo contactInfo;
     private Address address;
